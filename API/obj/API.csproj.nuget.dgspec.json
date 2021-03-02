@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj": {}
+    "f:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "F:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj": {
+    "f:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "f:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "F:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
+        "projectPath": "f:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\vk\\.nuget\\packages\\",
-        "outputPath": "F:\\Test Projects\\corevthangular\\DatingApp\\API\\obj\\",
+        "outputPath": "f:\\Test Projects\\corevthangular\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,16 +57,6 @@
             "Microsoft.AspNetCore.Mvc.ApiExplorer": {
               "target": "Package",
               "version": "[2.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0-preview.1.21102.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.0-preview.1.21102.2, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",

@@ -36,15 +36,6 @@
           "lib/net45/EntityFramework.MappingAPI.dll": {}
         }
       },
-      "Humanizer.Core/2.8.26": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Humanizer.dll": {}
-        }
-      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -367,22 +358,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Design/6.0.0-preview.1.21102.2": {
-        "type": "package",
-        "dependencies": {
-          "Humanizer.Core": "2.8.26",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.0-preview.1.21102.2"
-        },
-        "compile": {
-          "lib/net5.0/_._": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.EntityFrameworkCore.Design.dll": {}
-        },
-        "build": {
-          "build/net5.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/6.0.0-preview.1.21102.2": {
@@ -2526,22 +2501,6 @@
         "lib/net45/EntityFramework.MappingAPI.dll"
       ]
     },
-    "Humanizer.Core/2.8.26": {
-      "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
-      "type": "package",
-      "path": "humanizer.core/2.8.26",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "humanizer.core.2.8.26.nupkg.sha512",
-        "humanizer.core.nuspec",
-        "lib/netstandard1.0/Humanizer.dll",
-        "lib/netstandard1.0/Humanizer.xml",
-        "lib/netstandard2.0/Humanizer.dll",
-        "lib/netstandard2.0/Humanizer.xml",
-        "logo.png"
-      ]
-    },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {
       "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
       "type": "package",
@@ -2921,21 +2880,6 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.6.0.0-preview.1.21102.2.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Design/6.0.0-preview.1.21102.2": {
-      "sha512": "nncEa+o2dy1f3QryxDG8EuDerZc24//tteUmcgEIEQY1ZQp/Jp2UqPZDTYEaTX+ZEIN386kZkMtpHyN0A3VTdA==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.design/6.0.0-preview.1.21102.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "build/net5.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/net5.0/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/net5.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.6.0.0-preview.1.21102.2.nupkg.sha512",
-        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.0-preview.1.21102.2": {
@@ -7937,8 +7881,6 @@
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.AspNet.WebApi.Core >= 5.2.7",
       "Microsoft.AspNetCore.Mvc.ApiExplorer >= 2.2.0",
-      "Microsoft.EntityFrameworkCore >= 6.0.0-preview.1.21102.2",
-      "Microsoft.EntityFrameworkCore.Design >= 6.0.0-preview.1.21102.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.0-preview.1.21102.2",
       "Microsoft.WindowsAPICodePack-Shell >= 1.1.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
@@ -7950,11 +7892,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "f:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "F:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
+      "projectPath": "f:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\vk\\.nuget\\packages\\",
-      "outputPath": "F:\\Test Projects\\corevthangular\\DatingApp\\API\\obj\\",
+      "outputPath": "f:\\Test Projects\\corevthangular\\DatingApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8000,16 +7942,6 @@
           "Microsoft.AspNetCore.Mvc.ApiExplorer": {
             "target": "Package",
             "version": "[2.2.0, )"
-          },
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[6.0.0-preview.1.21102.2, )"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[6.0.0-preview.1.21102.2, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",

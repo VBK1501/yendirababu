@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SiYOCn/lEtKepz4ikpyo3UZr7hFltaktqUjpXL42+YupXtVWMCETgvevoa1x21Tg0H9FwTOFKMMpOj7HBcW7ZA==",
+  "dgSpecHash": "hqWFER0GctLnTp3QncvotN0SrI2X6FzlCiQwxsVVBgunYMRW/vi3gOwOZR3v6QDxXZWQ4nxiwg4+fc/Gqukt4Q==",
   "success": true,
-  "projectFilePath": "F:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "f:\\Test Projects\\corevthangular\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vk\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\entityframework.mappingapi\\6.2.0\\entityframework.mappingapi.6.2.0.nupkg.sha512",
-    "C:\\Users\\vk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -31,7 +30,6 @@
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.analyzers.6.0.0-preview.1.21102.2.nupkg.sha512",
-    "C:\\Users\\vk\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.design.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.relational.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.sqlite.6.0.0-preview.1.21102.2.nupkg.sha512",
     "C:\\Users\\vk\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.0-preview.1.21102.2\\microsoft.entityframeworkcore.sqlite.core.6.0.0-preview.1.21102.2.nupkg.sha512",
